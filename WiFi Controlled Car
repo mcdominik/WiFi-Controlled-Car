@@ -46,7 +46,7 @@ else if (((x>=-2) && (x<=2)) && (y<0)) {
  else if (y==-5){ motorSpeed(160,LOW,HIGH,160,LOW,HIGH); }
 }
 //left
- else if (((y<=2) && (y>=-2)) && (x<0)) {
+else if (((y<=2) && (y>=-2)) && (x<0)) {
  if (x==-1){ motorSpeed(0,HIGH,LOW,50,HIGH,LOW); }
  else if (x==-2){ motorSpeed(0,HIGH,LOW,75,HIGH,LOW); }
  else if (x==-3){ motorSpeed(0,HIGH,LOW,100,HIGH,LOW); }
@@ -54,7 +54,7 @@ else if (((x>=-2) && (x<=2)) && (y<0)) {
  else if (x==-5){ motorSpeed(0,HIGH,LOW,160,HIGH,LOW); }
 }
 //right
- else if (((y<=2) && (y>=-2 )) && (x>0)) {
+else if (((y<=2) && (y>=-2 )) && (x>0)) {
  if (x==1){motorSpeed(50,HIGH,LOW,0,HIGH,LOW); }
  else if (x==2){ motorSpeed(75,HIGH,LOW,0,HIGH,LOW); }
  else if (x==3){ motorSpeed(100,HIGH,LOW,0,HIGH,LOW); }

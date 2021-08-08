@@ -22,7 +22,7 @@ char ssid[] = "-------";           //WiFi Name
 char pass[] = "-------";           //WiFi Password
 BlynkTimer timer;
 
-void motorSpeed(int speedA, int in1, int in2, int speeB, int in3, int in4) {
+void motorSpeed(int speedA, int in1, int in2, int speedB, int in3, int in4) {
  analogWrite(enA,speedA);
  digitalWrite(IN1,in1);
  digitalWrite(IN2,in2);

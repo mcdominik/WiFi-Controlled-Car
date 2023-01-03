@@ -12,6 +12,6 @@ https://user-images.githubusercontent.com/81818614/129040797-086af06b-07c4-431b-
 - some wires and wheels;
 - batteries.
 
-created 1 Aug 2021
+created 1 Aug 2021;
 modified 3 Aug 2021
 by rydz99
